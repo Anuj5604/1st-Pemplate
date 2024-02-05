@@ -1,0 +1,195 @@
+$color:rgb(49, 104, 186);
+$text-color: rgb(63, 61, 61);
+$special-color:white;
+$hover-color:rgb(183, 203, 232);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Recursive', sans-serif;
+}
+header nav div a:hover{
+    background-color: $hover-color;
+    border: 1px solid $hover-color;
+    border-radius: 15px;
+    align-items: flex-end;
+    outline: none;
+    
+}
+header{
+    border: 1px solid rgb(74, 73, 73);
+    // display: flex;
+    width: 100%;
+}
+header nav .logo:hover{
+    background-color: $hover-color;
+    border: 1px solid $hover-color;
+    border-radius: 15px;
+    // align-items: flex-end;
+    outline: none;
+    width: fit-content;
+}
+header nav a:hover{
+    background-color: $hover-color;
+    border: 1px solid $hover-color;
+    border-radius: 15px;
+    outline: none;  
+} 
+nav{
+    display: flex;
+    padding: 15px;
+}
+header nav div a{
+    text-decoration: none;
+}
+.logo{
+    color: $color;
+    justify-content: start;
+    padding: 0 300px 0 0;
+
+}
+.functions{
+    color: $text-color;
+    padding: 0 400px 0 100px;
+    // align-items: center;
+    // padding: 0 10px;
+    word-spacing: 5px;
+    text-decoration: none;
+}
+.login{
+    color: $color;
+    text-decoration: none;
+}
+.main a span:hover{
+    background-color: $hover-color;
+}
+.main{
+    background-image: url(istockphoto-1028869800-612x612.jpg);
+    text-align: center;
+    height: 500px;
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+}
+.main button:hover{
+        background-color: $hover-color;
+}
+h1{
+    padding: 100px 0px 20px 0 ;
+}
+span{
+    color: $special-color;
+    // text-transform: bold;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: $color;
+}
+p{
+    justify-content: baseline;
+    text-transform: lowercase;
+    color: $text-color;
+}
+.btn{
+    background-color: $color;
+    color: $special-color;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.part-1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-inline: 7rem;
+    gap: 4rem;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+
+.data button {
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    width: fit-content;
+}
+
+.part-2{
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-inline: 7rem;
+    gap: 4rem;   
+}
+
+.part-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-inline: 7rem;
+    gap: 4rem;
+}
+.part-4 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-inline: 7rem;
+    gap: 4rem;
+}
+
+button{
+    background-color: $color;
+    color: $special-color;
+}
+footer{
+    background-color: $color;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+footer h3{
+    color: $special-color;
+}
+footer p{
+    color: $special-color;
+}
+
+.input-search {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-search input {
+    width: 100%;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: .3rem 1rem;
+}
+
+.input-search button {
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    bottom: 2px;
+    right: 2px;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: 0 3rem;
+}
